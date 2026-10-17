@@ -1,0 +1,11 @@
+{
+  "cases": [
+    {
+      "title": "Unusual activity near warehouse equipment",
+      "location": "warehouse3",
+      "camera_ids": ["sdg_warehouse_cam-2"],
+      "description": "Find footage of a person near a forklift. Reconstruct the observable sequence within each recording, and separate what is visible from what cannot be confirmed across clips.",
+      "why": "Live search on sdg_warehouse_cam-2 returns captions of a person beside a blue forklift, including stationary and moving descriptions. Those captions come from different parent recordings, so they must not be treated as one clock or one identified person."
+    }
+  ]
+}
